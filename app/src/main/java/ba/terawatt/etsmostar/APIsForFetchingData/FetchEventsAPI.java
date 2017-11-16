@@ -31,7 +31,7 @@ import ba.terawatt.etsmostar.R;
  * <p>25.7.2017. </p></br>
  * <p>Sending request to -> php <- script and fetching data in JSON form.</p></br>
  * <p>Data is put in recycler view and displaying on screen.</p></br>
- * <p>This class is a little bit difference from "FetchNewsAPI"</p>
+ * 
  *
  * <h2>Email for contact -> -> -> emir.veledar@edu.fit.ba <- <- <- </h2></br>
  *

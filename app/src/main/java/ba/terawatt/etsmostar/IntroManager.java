@@ -4,7 +4,15 @@ import android.content.Context;
 import android.content.SharedPreferences;
 
 /**
- * Created by Emir on 2.7.2017.
+ * <p>Created by</p></br>
+ * <h1>Emir Veledar</h1></br>
+ * <p>25.7.2017. </p></br>
+ * <p>Manager for IntroScreen Class.</p></br>
+ * 
+ *
+ * <h2>Email for contact -> -> -> emir.veledar@edu.fit.ba <- <- <- </h2></br>
+ *
+ * <p>PS..This is funny part of my life...</p>
  */
 public class IntroManager {
     private SharedPreferences sh_pref;

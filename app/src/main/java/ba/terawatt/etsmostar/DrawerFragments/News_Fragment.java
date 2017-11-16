@@ -25,12 +25,21 @@ import ba.terawatt.etsmostar.CustomItems.NewsItem;
 import ba.terawatt.etsmostar.R;
 
 /**
- * Created by Emir on 12.7.2017.
+ * <p>Created by</p></br>
+ * <h1>Emir Veledar</h1></br>
+ * <p>25.7.2017. </p></br>
+ * <p>Background of layouts which user can see. This class manipulating with multiple layouts.</p></br>
+ * 
+ *
+ * <h2>Email for contact -> -> -> emir.veledar@edu.fit.ba <- <- <- </h2></br>
+ *
+ * <p>PS..This is funny part of my life...</p>
  */
 public class News_Fragment extends Fragment{
 
-    private final String URL = "http://etsmostar.edu.ba/Android";
-    private final String DATAURL = "/android_fetch_news_php.php";
+    private final String url = "http://etsmostar.edu.ba/";
+    private final String dataurl = "/*  PHP Script For Fetching data   */";
+
     private static RecyclerView recyclerView;
     private static RecyclerView.Adapter adapter;
     private static List<NewsItem> listNews;

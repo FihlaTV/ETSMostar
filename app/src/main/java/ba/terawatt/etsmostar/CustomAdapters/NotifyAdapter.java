@@ -12,7 +12,15 @@ import ba.terawatt.etsmostar.CustomItems.NotifyItem;
 import ba.terawatt.etsmostar.R;
 
 /**
- * Created by Emir on 28.7.2017.
+ * <p>Created by</p></br>
+ * <h1>Emir Veledar</h1></br>
+ * <p>25.7.2017. </p></br>
+ * <p>Pushing data to RecyclerView.</p></br>
+ * 
+ *
+ * <h2>Email for contact -> -> -> emir.veledar@edu.fit.ba <- <- <- </h2></br>
+ *
+ * <p>PS..This is funny part of my life...</p>
  */
 public class NotifyAdapter extends RecyclerView.Adapter<NotifyAdapter.ViewHolder> {
 

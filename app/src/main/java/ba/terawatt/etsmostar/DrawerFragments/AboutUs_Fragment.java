@@ -10,7 +10,15 @@ import android.view.ViewGroup;
 import ba.terawatt.etsmostar.R;
 
 /**
- * Created by Emir on 3.8.2017.
+ * <p>Created by</p></br>
+ * <h1>Emir Veledar</h1></br>
+ * <p>25.7.2017. </p></br>
+ * <p>Background of layouts which user can see. This class manipulating with multiple layouts.</p></br>
+ * 
+ *
+ * <h2>Email for contact -> -> -> emir.veledar@edu.fit.ba <- <- <- </h2></br>
+ *
+ * <p>PS..This is funny part of my life...</p>
  */
 public class AboutUs_Fragment extends Fragment{
 

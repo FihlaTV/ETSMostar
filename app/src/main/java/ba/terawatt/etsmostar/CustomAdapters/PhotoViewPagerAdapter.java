@@ -14,7 +14,15 @@ import ba.terawatt.etsmostar.R;
 
 import java.util.List;
 /**
- * Created by Emir on 28.8.2017.
+ * <p>Created by</p></br>
+ * <h1>Emir Veledar</h1></br>
+ * <p>25.7.2017. </p></br>
+ * <p>Pushing data to RecyclerView.</p></br>
+ * 
+ *
+ * <h2>Email for contact -> -> -> emir.veledar@edu.fit.ba <- <- <- </h2></br>
+ *
+ * <p>PS..This is funny part of my life...</p>
  */
 public class PhotoViewPagerAdapter extends PagerAdapter {
     private Context context;

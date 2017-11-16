@@ -4,7 +4,15 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 /**
- * Created by Emir on 28.8.2017.
+ * <p>Created by</p></br>
+ * <h1>Emir Veledar</h1></br>
+ * <p>25.7.2017. </p></br>
+ * <p>Object for send data form one to another activity.</p></br>
+ * 
+ *
+ * <h2>Email for contact -> -> -> emir.veledar@edu.fit.ba <- <- <- </h2></br>
+ *
+ * <p>PS..This is funny part of my life...</p>
  */
 public class ParcelableForGalleryItems implements Parcelable {
     private String ID;

@@ -27,7 +27,17 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import ba.terawatt.etsmostar.APIsForFetchingData.FetchForReadAPI;
-
+/**
+ * <p>Created by</p></br>
+ * <h1>Emir Veledar</h1></br>
+ * <p>25.7.2017. </p></br>
+ * <p>ReadingView Class.</p></br>
+ * 
+ *
+ * <h2>Email for contact -> -> -> emir.veledar@edu.fit.ba <- <- <- </h2></br>
+ *
+ * <p>PS..This is funny part of my life...</p>
+ */
 
 public class ReadingView extends ActionBarActivity implements UpdateUIInterface {
 

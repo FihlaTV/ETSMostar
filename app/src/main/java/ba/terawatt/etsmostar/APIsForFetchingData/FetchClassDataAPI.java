@@ -21,7 +21,16 @@ import ba.terawatt.etsmostar.CustomItems.ClassItem;
 import ba.terawatt.etsmostar.R;
 
 /**
- * Created by Emir on 30.7.2017.
+ * <p>Created by</p></br>
+ * <h1>Emir Veledar</h1></br>
+ * <p>30.7.2017. </p></br>
+ * <p>Sending request to -> php <- script and fetching data in JSON form.</p></br>
+ * <p>Data is put in recycler view and displaying on screen.</p></br>
+ * 
+ *
+ * <h2>Email for contact -> -> -> emir.veledar@edu.fit.ba <- <- <- </h2></br>
+ *
+ * <p>PS..This is funny part of my life...</p>
  */
 public class FetchClassDataAPI extends AsyncTask<String, Void, JSONObject>{
     private List<ClassItem> classes;

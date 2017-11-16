@@ -23,14 +23,21 @@ import ba.terawatt.etsmostar.APIsForFetchingData.FetchEventsAPI;
 import ba.terawatt.etsmostar.CustomAdapters.EventAdapter;
 import ba.terawatt.etsmostar.CustomItems.EventItem;
 import ba.terawatt.etsmostar.R;
-
 /**
- * Created by Emir on 25.7.2017.
+ * <p>Created by</p></br>
+ * <h1>Emir Veledar</h1></br>
+ * <p>25.7.2017. </p></br>
+ * <p>Background of layouts which user can see. This class manipulating with multiple layouts.</p></br>
+ * 
+ *
+ * <h2>Email for contact -> -> -> emir.veledar@edu.fit.ba <- <- <- </h2></br>
+ *
+ * <p>PS..This is funny part of my life...</p>
  */
 public class Events_Fragment extends Fragment {
 
-    final String url = "http://etsmostar.edu.ba/Android/";
-    final String dataurl = "android_fetch_events_php.php";
+    private final String url = "http://etsmostar.edu.ba/";
+    private final String dataurl = "/*  PHP Script For Fetching data   */";
     private Snackbar snackbar;
     private SwipeRefreshLayout swipeRefreshLayout;
     private RecyclerView recyclerView;

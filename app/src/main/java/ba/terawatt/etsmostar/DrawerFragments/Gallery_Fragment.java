@@ -24,12 +24,20 @@ import ba.terawatt.etsmostar.CustomItems.GalleryItem;
 import ba.terawatt.etsmostar.R;
 
 /**
- * Created by Emir on 15.8.2017.
+ * <p>Created by</p></br>
+ * <h1>Emir Veledar</h1></br>
+ * <p>25.7.2017. </p></br>
+ * <p>Background of layouts which user can see. This class manipulating with multiple layouts.</p></br>
+ * 
+ *
+ * <h2>Email for contact -> -> -> emir.veledar@edu.fit.ba <- <- <- </h2></br>
+ *
+ * <p>PS..This is funny part of my life...</p>
  */
 public class Gallery_Fragment extends Fragment {
 
-    private final String url = "http://etsmostar.edu.ba/Android/";
-    private final String dataurl = "android_fetch_albums.php";
+    private final String url = "http://etsmostar.edu.ba/";
+    private final String dataurl = "/*  PHP Script For Fetching data   */";
 
     private SwipeRefreshLayout swipe;
     private RecyclerView recyclerView;

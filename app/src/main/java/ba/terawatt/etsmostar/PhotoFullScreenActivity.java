@@ -21,9 +21,16 @@ import java.util.List;
 
 import ba.terawatt.etsmostar.CustomAdapters.PhotoViewPagerAdapter;
 import ba.terawatt.etsmostar.CustomItems.GalleryItem;
-
 /**
- * Created by Emir on 28.8.2017.
+ * <p>Created by</p></br>
+ * <h1>Emir Veledar</h1></br>
+ * <p>25.7.2017. </p></br>
+ * <p>Class for view photo.</p></br>
+ * 
+ *
+ * <h2>Email for contact -> -> -> emir.veledar@edu.fit.ba <- <- <- </h2></br>
+ *
+ * <p>PS..This is funny part of my life...</p>
  */
 public class PhotoFullScreenActivity extends AppCompatActivity {
     private ViewPager pager;
