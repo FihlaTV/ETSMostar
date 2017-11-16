@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ba.terawatt.etsmostar" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ets_logo_android"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WelcomeScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+            <category android:name="android.intent.category.LAUNCHER" />
+        </activity>
+        <activity
+            android:name=".NavigationViewActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ReadingView"
+            android:label="@string/title_activity_reading_view"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".DrawerFragments.AboutApp_Fragment"
+            android:label="@string/others"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".GalleryView"
+            android:label="@string/others"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PhotoFullScreenActivity"
+            android:label="@string/others"
+            android:theme="@style/AppTheme" />
+
+    </application>
+
+</manifest>

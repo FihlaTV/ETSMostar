@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Main Menus -->
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/news"
+            android:checkable="true"
+            android:checked="true"
+            android:icon="@drawable/ic_receipt_black_24dp"
+            android:title="@string/NEWS" />
+
+
+        <item
+            android:id="@+id/events"
+            android:checkable="true"
+            android:checked="false"
+            android:icon="@drawable/ic_event_note_black_24dp"
+            android:title="@string/EVENTS" />
+
+        <item
+            android:id="@+id/notifications"
+            android:checkable="true"
+            android:checked="false"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:title="@string/NOTIFICATIONS" />
+        <item
+            android:id="@+id/gallery"
+            android:checkable="true"
+            android:checked="false"
+            android:icon="@drawable/ic_collections_black_24dp"
+            android:title="@string/GALLERY" />
+
+        <item
+            android:id="@+id/study"
+            android:checkable="true"
+            android:checked="false"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:title="@string/STUDY" />
+
+        <item
+            android:id="@+id/download"
+            android:checkable="true"
+            android:checked="false"
+            android:icon="@drawable/ic_folder_black_24dp"
+            android:title="@string/BOOKS" />
+
+        <item
+            android:id="@+id/poll"
+            android:checkable="true"
+            android:checked="false"
+            android:icon="@drawable/ic_poll_black_24dp"
+            android:title="@string/POLL" />
+
+        <item
+            android:id="@+id/abouts"
+            android:checkable="true"
+            android:checked="false"
+            android:icon="@drawable/ic_account_balance_black_24dp"
+            android:title="@string/ABOUT" />
+
+    </group>
+
+    <!--  Sub Menus  -->
+    <item android:title="@string/others">
+        <menu>
+            <group android:checkableBehavior="none">
+                <item
+                    android:id="@+id/share_app"
+                    android:icon="@drawable/ic_share_black_24dp"
+                    android:title="@string/share" />
+                <item
+                    android:id="@+id/rate_app"
+                    android:icon="@drawable/ic_android_black_24dp"
+                    android:title="@string/AboutApp" />
+            </group>
+        </menu>
+    </item>
+
+
+</menu>

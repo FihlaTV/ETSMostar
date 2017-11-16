@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="actionBarColor">#023C6C</color>
+    <color name="statusBarColor">#ff022f57</color>
+    <color name="textBlackColor">#000000</color>
+
+    <color name="firstSlideBackgroundColor">#4A148C</color>
+    <color name="secondSlideBackgroundColor">#880E4F</color>
+    <color name="thirdSlideBackgroundColor">#311B92</color>
+    <color name="fourthSlideBackgroundColor">#004D40</color>
+    <color name="fifthSlideBackgroundColor">#006064</color>
+    <color name="white">#ffffff</color>
+
+    <color name="dot_dark_screen_one">#8E24AA</color>
+    <color name="dot_dark_screen_second">#D81B60</color>
+    <color name="dot_dark_screen_third">#5E35B1</color>
+    <color name="dot_dark_screen_fourth">#00897B</color>
+    <color name="dot_dark_screen_fifth">#00ACC1</color>
+
+    <color name="dot_light_screen_one">#CE93D8</color>
+    <color name="dot_light_screen_second">#F8BBD0</color>
+    <color name="dot_light_screen_third">#D1C4E9</color>
+    <color name="dot_light_screen_fourth">#B2DFDB</color>
+    <color name="dot_light_screen_fifth">#80DEEA</color>
+
+    <array name="dot_enable">
+        <item>@color/dot_dark_screen_one</item>
+        <item>@color/dot_dark_screen_second</item>
+        <item>@color/dot_dark_screen_third</item>
+        <item>@color/dot_dark_screen_fourth</item>
+        <item>@color/dot_dark_screen_fifth</item>
+    </array>
+    <array name="dot_disable">
+        <item>@color/dot_light_screen_one</item>
+        <item>@color/dot_light_screen_second</item>
+        <item>@color/dot_light_screen_third</item>
+        <item>@color/dot_light_screen_fourth</item>
+        <item>@color/dot_light_screen_fifth</item>
+    </array>
+
+
+    // reading layout colors
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#BBDEFB</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="black_trans">#14000000</color>
+</resources>
